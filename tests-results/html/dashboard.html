@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /afluenta-platform/app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="_css/bootstrap.min.css?v=10.1.3" rel="stylesheet" type="text/css">
+  <link href="_css/nv.d3.min.css?v=10.1.3" rel="stylesheet" type="text/css">
+  <link href="_css/style.css?v=10.1.3" rel="stylesheet" type="text/css">
+  <link href="_css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/afluenta-platform/app</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Exceptions/ExceptionHandler.php.html#13">App\Exceptions\ExceptionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/HandlerWrapper.php.html#13">App\Exceptions\HandlerWrapper</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handlers/AuthenticationExceptionHandler.php.html#11">App\Exceptions\Handlers\AuthenticationExceptionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handlers/InternalRipioExceptionHandler.php.html#10">App\Exceptions\Handlers\InternalRipioExceptionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handlers/ValidationExceptionHandler.php.html#10">App\Exceptions\Handlers\ValidationExceptionHandler</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/InternalRipioException.php.html#8">App\Exceptions\InternalRipioException</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AddressController.php.html#10">App\Http\Controllers\AddressController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#10">App\Http\Controllers\AuthController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BalanceController.php.html#8">App\Http\Controllers\BalanceController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DepositController.php.html#9">App\Http\Controllers\DepositController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RateController.php.html#9">App\Http\Controllers\RateController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ReusableQuoteController.php.html#11">App\Http\Controllers\ReusableQuoteController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/TransactionController.php.html#9">App\Http\Controllers\TransactionController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#9">App\Http\Controllers\UserController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/WithdrawalController.php.html#11">App\Http\Controllers\WithdrawalController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/WithdrawalFeeController.php.html#9">App\Http\Controllers\WithdrawalFeeController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#8">App\Http\Middleware\Authenticate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#11">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/TrustHosts.php.html#7">App\Http\Middleware\TrustHosts</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/LoginAuthRequest.php.html#7">App\Http\Requests\LoginAuthRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreAddressRequest.php.html#9">App\Http\Requests\StoreAddressRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreReusableQuoteRequest.php.html#9">App\Http\Requests\StoreReusableQuoteRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreUserRequest.php.html#7">App\Http\Requests\StoreUserRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreWithdrawalRequest.php.html#9">App\Http\Requests\StoreWithdrawalRequest</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/ApiToken.php.html#9">App\Models\ApiToken</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#13">App\Models\User</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#8">App\Providers\BroadcastServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#12">App\Providers\JWTUserProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/Network.php.html#8">App\Rules\Network</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Ripio.php.html#5">App\Service\Exchange\Ripio\Ripio</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#16">App\Service\Exchange\Ripio\RipioClient</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioFacade.php.html#7">App\Service\Exchange\Ripio\RipioFacade</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiAddress.php.html#11">App\Service\Exchange\Ripio\ApiAddress</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiBalance.php.html#7">App\Service\Exchange\Ripio\ApiBalance</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiDeposit.php.html#7">App\Service\Exchange\Ripio\ApiDeposit</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiRate.php.html#7">App\Service\Exchange\Ripio\ApiRate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiResponse.php.html#7">App\Service\Exchange\Ripio\ApiResponse</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiReusableQuote.php.html#8">App\Service\Exchange\Ripio\ApiReusableQuote</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiTransaction.php.html#7">App\Service\Exchange\Ripio\ApiTransaction</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiUrl.php.html#7">App\Service\Exchange\Ripio\ApiUrl</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiUser.php.html#7">App\Service\Exchange\Ripio\ApiUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawal.php.html#8">App\Service\Exchange\Ripio\ApiWithdrawal</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawalFee.php.html#7">App\Service\Exchange\Ripio\ApiWithdrawalFee</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Auth.php.html#5">App\Service\Exchange\Ripio\Resource\Auth</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Deposit.php.html#5">App\Service\Exchange\Ripio\Resource\Deposit</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/EndUser.php.html#5">App\Service\Exchange\Ripio\Resource\EndUser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Rate.php.html#5">App\Service\Exchange\Ripio\Resource\Rate</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Transaction.php.html#5">App\Service\Exchange\Ripio\Resource\Transaction</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Withdrawal.php.html#5">App\Service\Exchange\Ripio\Resource\Withdrawal</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/WithdrawalFee.php.html#5">App\Service\Exchange\Ripio\Resource\WithdrawalFee</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/AppServiceProvider.php.html#13">App\Providers\AppServiceProvider</a></td><td class="text-right">39%</td></tr>
+       <tr><td><a href="Console/Kernel.php.html#8">App\Console\Kernel</a></td><td class="text-right">66%</td></tr>
+       <tr><td><a href="Providers/RouteServiceProvider.php.html#11">App\Providers\RouteServiceProvider</a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Providers/AuthServiceProvider.php.html#9">App\Providers\AuthServiceProvider</a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#12">App\Providers\JWTUserProvider</a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#10">App\Http\Controllers\AuthController</a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#16">App\Service\Exchange\Ripio\RipioClient</a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiReusableQuote.php.html#8">App\Service\Exchange\Ripio\ApiReusableQuote</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="Exceptions/HandlerWrapper.php.html#13">App\Exceptions\HandlerWrapper</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#11">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiAddress.php.html#11">App\Service\Exchange\Ripio\ApiAddress</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiUser.php.html#7">App\Service\Exchange\Ripio\ApiUser</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawal.php.html#8">App\Service\Exchange\Ripio\ApiWithdrawal</a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Exceptions/ExceptionHandler.php.html#13">App\Exceptions\ExceptionHandler</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Controllers/ReusableQuoteController.php.html#11">App\Http\Controllers\ReusableQuoteController</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Rules/Network.php.html#8">App\Rules\Network</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawalFee.php.html#7">App\Service\Exchange\Ripio\ApiWithdrawalFee</a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Providers/AppServiceProvider.php.html#13">App\Providers\AppServiceProvider</a></td><td class="text-right">10</td></tr>
+       <tr><td><a href="Exceptions/Handlers/AuthenticationExceptionHandler.php.html#11">App\Exceptions\Handlers\AuthenticationExceptionHandler</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Exceptions/Handlers/InternalRipioExceptionHandler.php.html#10">App\Exceptions\Handlers\InternalRipioExceptionHandler</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Exceptions/Handlers/ValidationExceptionHandler.php.html#10">App\Exceptions\Handlers\ValidationExceptionHandler</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#8">App\Http\Middleware\Authenticate</a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/RouteServiceProvider.php.html#11">App\Providers\RouteServiceProvider</a></td><td class="text-right">5</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Console/Kernel.php.html#13"><abbr title="App\Console\Kernel::schedule">schedule</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/ExceptionHandler.php.html#23"><abbr title="App\Exceptions\ExceptionHandler::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/ExceptionHandler.php.html#32"><abbr title="App\Exceptions\ExceptionHandler::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/HandlerWrapper.php.html#30"><abbr title="App\Exceptions\HandlerWrapper::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/HandlerWrapper.php.html#50"><abbr title="App\Exceptions\HandlerWrapper::getHandler">getHandler</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handlers/AuthenticationExceptionHandler.php.html#19"><abbr title="App\Exceptions\Handlers\AuthenticationExceptionHandler::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handlers/InternalRipioExceptionHandler.php.html#18"><abbr title="App\Exceptions\Handlers\InternalRipioExceptionHandler::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/Handlers/ValidationExceptionHandler.php.html#18"><abbr title="App\Exceptions\Handlers\ValidationExceptionHandler::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/InternalRipioException.php.html#24"><abbr title="App\Exceptions\InternalRipioException::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/InternalRipioException.php.html#39"><abbr title="App\Exceptions\InternalRipioException::getStatus">getStatus</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Exceptions/InternalRipioException.php.html#49"><abbr title="App\Exceptions\InternalRipioException::getData">getData</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AddressController.php.html#15"><abbr title="App\Http\Controllers\AddressController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AddressController.php.html#25"><abbr title="App\Http\Controllers\AddressController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#17"><abbr title="App\Http\Controllers\AuthController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#27"><abbr title="App\Http\Controllers\AuthController::login">login</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#43"><abbr title="App\Http\Controllers\AuthController::me">me</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#53"><abbr title="App\Http\Controllers\AuthController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#65"><abbr title="App\Http\Controllers\AuthController::refresh">refresh</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#75"><abbr title="App\Http\Controllers\AuthController::invalidCredentials">invalidCredentials</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#89"><abbr title="App\Http\Controllers\AuthController::loggedOut">loggedOut</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#105"><abbr title="App\Http\Controllers\AuthController::respondWithToken">respondWithToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BalanceController.php.html#13"><abbr title="App\Http\Controllers\BalanceController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DepositController.php.html#14"><abbr title="App\Http\Controllers\DepositController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DepositController.php.html#36"><abbr title="App\Http\Controllers\DepositController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RateController.php.html#14"><abbr title="App\Http\Controllers\RateController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/RateController.php.html#26"><abbr title="App\Http\Controllers\RateController::getHistoricalRates">getHistoricalRates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ReusableQuoteController.php.html#16"><abbr title="App\Http\Controllers\ReusableQuoteController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ReusableQuoteController.php.html#28"><abbr title="App\Http\Controllers\ReusableQuoteController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/TransactionController.php.html#14"><abbr title="App\Http\Controllers\TransactionController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/TransactionController.php.html#31"><abbr title="App\Http\Controllers\TransactionController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#14"><abbr title="App\Http\Controllers\UserController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#24"><abbr title="App\Http\Controllers\UserController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/UserController.php.html#34"><abbr title="App\Http\Controllers\UserController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/WithdrawalController.php.html#16"><abbr title="App\Http\Controllers\WithdrawalController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/WithdrawalController.php.html#39"><abbr title="App\Http\Controllers\WithdrawalController::store">store</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/WithdrawalController.php.html#58"><abbr title="App\Http\Controllers\WithdrawalController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/WithdrawalFeeController.php.html#14"><abbr title="App\Http\Controllers\WithdrawalFeeController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#13"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/TrustHosts.php.html#14"><abbr title="App\Http\Middleware\TrustHosts::hosts">hosts</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/LoginAuthRequest.php.html#12"><abbr title="App\Http\Requests\LoginAuthRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/LoginAuthRequest.php.html#22"><abbr title="App\Http\Requests\LoginAuthRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreAddressRequest.php.html#14"><abbr title="App\Http\Requests\StoreAddressRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreAddressRequest.php.html#24"><abbr title="App\Http\Requests\StoreAddressRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreReusableQuoteRequest.php.html#14"><abbr title="App\Http\Requests\StoreReusableQuoteRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreReusableQuoteRequest.php.html#24"><abbr title="App\Http\Requests\StoreReusableQuoteRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreUserRequest.php.html#12"><abbr title="App\Http\Requests\StoreUserRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreUserRequest.php.html#22"><abbr title="App\Http\Requests\StoreUserRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreWithdrawalRequest.php.html#14"><abbr title="App\Http\Requests\StoreWithdrawalRequest::authorize">authorize</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Requests/StoreWithdrawalRequest.php.html#24"><abbr title="App\Http\Requests\StoreWithdrawalRequest::rules">rules</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/ApiToken.php.html#28"><abbr title="App\Models\ApiToken::getValidToken">getValidToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#47"><abbr title="App\Models\User::getJWTIdentifier">getJWTIdentifier</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#57"><abbr title="App\Models\User::getJWTCustomClaims">getJWTCustomClaims</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Models/User.php.html#69"><abbr title="App\Models\User::getAuthPassword">getAuthPassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#13"><abbr title="App\Providers\BroadcastServiceProvider::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#17"><abbr title="App\Providers\JWTUserProvider::register">register</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#25"><abbr title="App\Providers\JWTUserProvider::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#37"><abbr title="App\Providers\JWTUserProvider::retrieveByToken">retrieveByToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#49"><abbr title="App\Providers\JWTUserProvider::updateRememberToken">updateRememberToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#60"><abbr title="App\Providers\JWTUserProvider::retrieveById">retrieveById</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#71"><abbr title="App\Providers\JWTUserProvider::retrieveByCredentials">retrieveByCredentials</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#83"><abbr title="App\Providers\JWTUserProvider::validateCredentials">validateCredentials</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#95"><abbr title="App\Providers\JWTUserProvider::getUserByCredentials">getUserByCredentials</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#113"><abbr title="App\Providers\JWTUserProvider::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/Network.php.html#15"><abbr title="App\Rules\Network::validate">validate</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Ripio.php.html#20"><abbr title="App\Service\Exchange\Ripio\Ripio::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#33"><abbr title="App\Service\Exchange\Ripio\RipioClient::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#47"><abbr title="App\Service\Exchange\Ripio\RipioClient::makeRequest">makeRequest</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#65"><abbr title="App\Service\Exchange\Ripio\RipioClient::setToken">setToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#96"><abbr title="App\Service\Exchange\Ripio\RipioClient::isExpiredToken">isExpiredToken</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#108"><abbr title="App\Service\Exchange\Ripio\RipioClient::throwIfApiHasErrors">throwIfApiHasErrors</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioFacade.php.html#9"><abbr title="App\Service\Exchange\Ripio\RipioFacade::getFacadeAccessor">getFacadeAccessor</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiAddress.php.html#19"><abbr title="App\Service\Exchange\Ripio\ApiAddress::getAddresses">getAddresses</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiAddress.php.html#36"><abbr title="App\Service\Exchange\Ripio\ApiAddress::createAddress">createAddress</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiBalance.php.html#15"><abbr title="App\Service\Exchange\Ripio\ApiBalance::getBalances">getBalances</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiDeposit.php.html#17"><abbr title="App\Service\Exchange\Ripio\ApiDeposit::getDeposits">getDeposits</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiDeposit.php.html#32"><abbr title="App\Service\Exchange\Ripio\ApiDeposit::getDeposit">getDeposit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiRate.php.html#18"><abbr title="App\Service\Exchange\Ripio\ApiRate::getRates">getRates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiRate.php.html#31"><abbr title="App\Service\Exchange\Ripio\ApiRate::getHistoricalRates">getHistoricalRates</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiResponse.php.html#13"><abbr title="App\Service\Exchange\Ripio\ApiResponse::getResponse">getResponse</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiReusableQuote.php.html#19"><abbr title="App\Service\Exchange\Ripio\ApiReusableQuote::getReusableQuotes">getReusableQuotes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiReusableQuote.php.html#36"><abbr title="App\Service\Exchange\Ripio\ApiReusableQuote::createReusableQuote">createReusableQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiReusableQuote.php.html#76"><abbr title="App\Service\Exchange\Ripio\ApiReusableQuote::executionReusableQuote">executionReusableQuote</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiTransaction.php.html#18"><abbr title="App\Service\Exchange\Ripio\ApiTransaction::getTransactions">getTransactions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiTransaction.php.html#33"><abbr title="App\Service\Exchange\Ripio\ApiTransaction::getTransaction">getTransaction</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiUrl.php.html#15"><abbr title="App\Service\Exchange\Ripio\ApiUrl::getUrl">getUrl</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiUser.php.html#14"><abbr title="App\Service\Exchange\Ripio\ApiUser::getUsers">getUsers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiUser.php.html#28"><abbr title="App\Service\Exchange\Ripio\ApiUser::getUser">getUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiUser.php.html#45"><abbr title="App\Service\Exchange\Ripio\ApiUser::createUser">createUser</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawal.php.html#19"><abbr title="App\Service\Exchange\Ripio\ApiWithdrawal::getWithdrawals">getWithdrawals</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawal.php.html#34"><abbr title="App\Service\Exchange\Ripio\ApiWithdrawal::getWithdrawal">getWithdrawal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawal.php.html#56"><abbr title="App\Service\Exchange\Ripio\ApiWithdrawal::createWithdrawal">createWithdrawal</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawalFee.php.html#18"><abbr title="App\Service\Exchange\Ripio\ApiWithdrawalFee::getWithdrawalFees">getWithdrawalFees</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawalFee.php.html#39"><abbr title="App\Service\Exchange\Ripio\ApiWithdrawalFee::createWithdrawalFee">createWithdrawalFee</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Auth.php.html#9"><abbr title="App\Service\Exchange\Ripio\Resource\Auth::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Deposit.php.html#10"><abbr title="App\Service\Exchange\Ripio\Resource\Deposit::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/EndUser.php.html#12"><abbr title="App\Service\Exchange\Ripio\Resource\EndUser::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Rate.php.html#10"><abbr title="App\Service\Exchange\Ripio\Resource\Rate::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Transaction.php.html#12"><abbr title="App\Service\Exchange\Ripio\Resource\Transaction::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/Withdrawal.php.html#10"><abbr title="App\Service\Exchange\Ripio\Resource\Withdrawal::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/Resource/WithdrawalFee.php.html#9"><abbr title="App\Service\Exchange\Ripio\Resource\WithdrawalFee::getValue">getValue</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/AppServiceProvider.php.html#68"><abbr title="App\Providers\AppServiceProvider::getKeysToCamelCaseCallable">getKeysToCamelCaseCallable</abbr></a></td><td class="text-right">25%</td></tr>
+       <tr><td><a href="Providers/AppServiceProvider.php.html#38"><abbr title="App\Providers\AppServiceProvider::getApiResponseCallable">getApiResponseCallable</abbr></a></td><td class="text-right">35%</td></tr>
+       <tr><td><a href="Providers/RouteServiceProvider.php.html#25"><abbr title="App\Providers\RouteServiceProvider::boot">boot</abbr></a></td><td class="text-right">80%</td></tr>
+       <tr><td><a href="Providers/AuthServiceProvider.php.html#23"><abbr title="App\Providers\AuthServiceProvider::boot">boot</abbr></a></td><td class="text-right">83%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiReusableQuote.php.html#76"><abbr title="App\Service\Exchange\Ripio\ApiReusableQuote::executionReusableQuote">executionReusableQuote</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#95"><abbr title="App\Providers\JWTUserProvider::getUserByCredentials">getUserByCredentials</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Rules/Network.php.html#15"><abbr title="App\Rules\Network::validate">validate</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiAddress.php.html#36"><abbr title="App\Service\Exchange\Ripio\ApiAddress::createAddress">createAddress</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Exceptions/ExceptionHandler.php.html#32"><abbr title="App\Exceptions\ExceptionHandler::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Exceptions/HandlerWrapper.php.html#30"><abbr title="App\Exceptions\HandlerWrapper::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Exceptions/HandlerWrapper.php.html#50"><abbr title="App\Exceptions\HandlerWrapper::getHandler">getHandler</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Exceptions/Handlers/AuthenticationExceptionHandler.php.html#19"><abbr title="App\Exceptions\Handlers\AuthenticationExceptionHandler::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Exceptions/Handlers/InternalRipioExceptionHandler.php.html#18"><abbr title="App\Exceptions\Handlers\InternalRipioExceptionHandler::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Exceptions/Handlers/ValidationExceptionHandler.php.html#18"><abbr title="App\Exceptions\Handlers\ValidationExceptionHandler::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/AuthController.php.html#27"><abbr title="App\Http\Controllers\AuthController::login">login</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Controllers/ReusableQuoteController.php.html#28"><abbr title="App\Http\Controllers\ReusableQuoteController::store">store</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Http/Middleware/Authenticate.php.html#13"><abbr title="App\Http\Middleware\Authenticate::redirectTo">redirectTo</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/JWTUserProvider.php.html#83"><abbr title="App\Providers\JWTUserProvider::validateCredentials">validateCredentials</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#65"><abbr title="App\Service\Exchange\Ripio\RipioClient::setToken">setToken</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#96"><abbr title="App\Service\Exchange\Ripio\RipioClient::isExpiredToken">isExpiredToken</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/RipioClient.php.html#108"><abbr title="App\Service\Exchange\Ripio\RipioClient::throwIfApiHasErrors">throwIfApiHasErrors</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiReusableQuote.php.html#36"><abbr title="App\Service\Exchange\Ripio\ApiReusableQuote::createReusableQuote">createReusableQuote</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiUser.php.html#45"><abbr title="App\Service\Exchange\Ripio\ApiUser::createUser">createUser</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawal.php.html#56"><abbr title="App\Service\Exchange\Ripio\ApiWithdrawal::createWithdrawal">createWithdrawal</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Service/Exchange/Ripio/ApiWithdrawalFee.php.html#39"><abbr title="App\Service\Exchange\Ripio\ApiWithdrawalFee::createWithdrawalFee">createWithdrawalFee</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="Providers/RouteServiceProvider.php.html#25"><abbr title="App\Providers\RouteServiceProvider::boot">boot</abbr></a></td><td class="text-right">5</td></tr>
+       <tr><td><a href="Providers/AppServiceProvider.php.html#38"><abbr title="App\Providers\AppServiceProvider::getApiResponseCallable">getApiResponseCallable</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 10.1.3</a> using <a href="https://www.php.net/" target="_top">PHP 8.2.11</a> and <a href="https://phpunit.de/">PHPUnit 10.3.2</a> at Wed Jan 10 12:01:41 UTC 2024.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="_js/jquery.min.js?v=10.1.3" type="text/javascript"></script>
+  <script src="_js/d3.min.js?v=10.1.3" type="text/javascript"></script>
+  <script src="_js/nv.d3.min.js?v=10.1.3" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([50,0,0,0,1,0,0,1,0,2,0,10], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([101,0,0,1,1,0,0,0,0,2,0,7], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[66.66666666666666,2,"<a href=\"Console\/Kernel.php.html#8\">App\\Console\\Kernel<\/a>"],[0,3,"<a href=\"Exceptions\/ExceptionHandler.php.html#13\">App\\Exceptions\\ExceptionHandler<\/a>"],[100,2,"<a href=\"Exceptions\/Handler.php.html#10\">App\\Exceptions\\Handler<\/a>"],[0,4,"<a href=\"Exceptions\/HandlerWrapper.php.html#13\">App\\Exceptions\\HandlerWrapper<\/a>"],[0,2,"<a href=\"Exceptions\/Handlers\/AuthenticationExceptionHandler.php.html#11\">App\\Exceptions\\Handlers\\AuthenticationExceptionHandler<\/a>"],[0,2,"<a href=\"Exceptions\/Handlers\/InternalRipioExceptionHandler.php.html#10\">App\\Exceptions\\Handlers\\InternalRipioExceptionHandler<\/a>"],[0,2,"<a href=\"Exceptions\/Handlers\/ValidationExceptionHandler.php.html#10\">App\\Exceptions\\Handlers\\ValidationExceptionHandler<\/a>"],[0,3,"<a href=\"Exceptions\/InternalRipioException.php.html#8\">App\\Exceptions\\InternalRipioException<\/a>"],[0,2,"<a href=\"Http\/Controllers\/AddressController.php.html#10\">App\\Http\\Controllers\\AddressController<\/a>"],[0,9,"<a href=\"Http\/Controllers\/AuthController.php.html#10\">App\\Http\\Controllers\\AuthController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BalanceController.php.html#8\">App\\Http\\Controllers\\BalanceController<\/a>"],[100,0,"<a href=\"Http\/Controllers\/Controller.php.html#9\">App\\Http\\Controllers\\Controller<\/a>"],[0,2,"<a href=\"Http\/Controllers\/DepositController.php.html#9\">App\\Http\\Controllers\\DepositController<\/a>"],[0,2,"<a href=\"Http\/Controllers\/RateController.php.html#9\">App\\Http\\Controllers\\RateController<\/a>"],[0,3,"<a href=\"Http\/Controllers\/ReusableQuoteController.php.html#11\">App\\Http\\Controllers\\ReusableQuoteController<\/a>"],[0,2,"<a href=\"Http\/Controllers\/TransactionController.php.html#9\">App\\Http\\Controllers\\TransactionController<\/a>"],[0,3,"<a href=\"Http\/Controllers\/UserController.php.html#9\">App\\Http\\Controllers\\UserController<\/a>"],[0,3,"<a href=\"Http\/Controllers\/WithdrawalController.php.html#11\">App\\Http\\Controllers\\WithdrawalController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/WithdrawalFeeController.php.html#9\">App\\Http\\Controllers\\WithdrawalFeeController<\/a>"],[100,0,"<a href=\"Http\/Kernel.php.html#7\">App\\Http\\Kernel<\/a>"],[0,2,"<a href=\"Http\/Middleware\/Authenticate.php.html#8\">App\\Http\\Middleware\\Authenticate<\/a>"],[100,0,"<a href=\"Http\/Middleware\/EncryptCookies.php.html#7\">App\\Http\\Middleware\\EncryptCookies<\/a>"],[100,0,"<a href=\"Http\/Middleware\/PreventRequestsDuringMaintenance.php.html#7\">App\\Http\\Middleware\\PreventRequestsDuringMaintenance<\/a>"],[0,4,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#11\">App\\Http\\Middleware\\RedirectIfAuthenticated<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrimStrings.php.html#7\">App\\Http\\Middleware\\TrimStrings<\/a>"],[0,1,"<a href=\"Http\/Middleware\/TrustHosts.php.html#7\">App\\Http\\Middleware\\TrustHosts<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrustProxies.php.html#8\">App\\Http\\Middleware\\TrustProxies<\/a>"],[100,0,"<a href=\"Http\/Middleware\/ValidateSignature.php.html#7\">App\\Http\\Middleware\\ValidateSignature<\/a>"],[100,0,"<a href=\"Http\/Middleware\/VerifyCsrfToken.php.html#7\">App\\Http\\Middleware\\VerifyCsrfToken<\/a>"],[0,2,"<a href=\"Http\/Requests\/LoginAuthRequest.php.html#7\">App\\Http\\Requests\\LoginAuthRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/StoreAddressRequest.php.html#9\">App\\Http\\Requests\\StoreAddressRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/StoreReusableQuoteRequest.php.html#9\">App\\Http\\Requests\\StoreReusableQuoteRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/StoreUserRequest.php.html#7\">App\\Http\\Requests\\StoreUserRequest<\/a>"],[0,2,"<a href=\"Http\/Requests\/StoreWithdrawalRequest.php.html#9\">App\\Http\\Requests\\StoreWithdrawalRequest<\/a>"],[0,1,"<a href=\"Models\/ApiToken.php.html#9\">App\\Models\\ApiToken<\/a>"],[0,3,"<a href=\"Models\/User.php.html#13\">App\\Models\\User<\/a>"],[39.285714285714285,5,"<a href=\"Providers\/AppServiceProvider.php.html#13\">App\\Providers\\AppServiceProvider<\/a>"],[83.33333333333334,1,"<a href=\"Providers\/AuthServiceProvider.php.html#9\">App\\Providers\\AuthServiceProvider<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#8\">App\\Providers\\BroadcastServiceProvider<\/a>"],[100,2,"<a href=\"Providers\/EventServiceProvider.php.html#10\">App\\Providers\\EventServiceProvider<\/a>"],[0,12,"<a href=\"Providers\/JWTUserProvider.php.html#12\">App\\Providers\\JWTUserProvider<\/a>"],[80,5,"<a href=\"Providers\/RouteServiceProvider.php.html#11\">App\\Providers\\RouteServiceProvider<\/a>"],[0,3,"<a href=\"Rules\/Network.php.html#8\">App\\Rules\\Network<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Ripio.php.html#5\">App\\Service\\Exchange\\Ripio\\Ripio<\/a>"],[0,8,"<a href=\"Service\/Exchange\/Ripio\/RipioClient.php.html#16\">App\\Service\\Exchange\\Ripio\\RipioClient<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/RipioFacade.php.html#7\">App\\Service\\Exchange\\Ripio\\RipioFacade<\/a>"],[0,4,"<a href=\"Service\/Exchange\/Ripio\/ApiAddress.php.html#11\">App\\Service\\Exchange\\Ripio\\ApiAddress<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiBalance.php.html#7\">App\\Service\\Exchange\\Ripio\\ApiBalance<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/ApiDeposit.php.html#7\">App\\Service\\Exchange\\Ripio\\ApiDeposit<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/ApiRate.php.html#7\">App\\Service\\Exchange\\Ripio\\ApiRate<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiResponse.php.html#7\">App\\Service\\Exchange\\Ripio\\ApiResponse<\/a>"],[0,7,"<a href=\"Service\/Exchange\/Ripio\/ApiReusableQuote.php.html#8\">App\\Service\\Exchange\\Ripio\\ApiReusableQuote<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/ApiTransaction.php.html#7\">App\\Service\\Exchange\\Ripio\\ApiTransaction<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiUrl.php.html#7\">App\\Service\\Exchange\\Ripio\\ApiUrl<\/a>"],[0,4,"<a href=\"Service\/Exchange\/Ripio\/ApiUser.php.html#7\">App\\Service\\Exchange\\Ripio\\ApiUser<\/a>"],[0,4,"<a href=\"Service\/Exchange\/Ripio\/ApiWithdrawal.php.html#8\">App\\Service\\Exchange\\Ripio\\ApiWithdrawal<\/a>"],[0,3,"<a href=\"Service\/Exchange\/Ripio\/ApiWithdrawalFee.php.html#7\">App\\Service\\Exchange\\Ripio\\ApiWithdrawalFee<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Auth.php.html#5\">App\\Service\\Exchange\\Ripio\\Resource\\Auth<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Deposit.php.html#5\">App\\Service\\Exchange\\Ripio\\Resource\\Deposit<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/EndUser.php.html#5\">App\\Service\\Exchange\\Ripio\\Resource\\EndUser<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Rate.php.html#5\">App\\Service\\Exchange\\Ripio\\Resource\\Rate<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Transaction.php.html#5\">App\\Service\\Exchange\\Ripio\\Resource\\Transaction<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Withdrawal.php.html#5\">App\\Service\\Exchange\\Ripio\\Resource\\Withdrawal<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/WithdrawalFee.php.html#5\">App\\Service\\Exchange\\Ripio\\Resource\\WithdrawalFee<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[0,1,"<a href=\"Console\/Kernel.php.html#13\">App\\Console\\Kernel::schedule<\/a>"],[100,1,"<a href=\"Console\/Kernel.php.html#21\">App\\Console\\Kernel::commands<\/a>"],[0,1,"<a href=\"Exceptions\/ExceptionHandler.php.html#23\">App\\Exceptions\\ExceptionHandler::__construct<\/a>"],[0,2,"<a href=\"Exceptions\/ExceptionHandler.php.html#32\">App\\Exceptions\\ExceptionHandler::handle<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#53\">App\\Exceptions\\Handler::__construct<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#64\">App\\Exceptions\\Handler::register<\/a>"],[0,2,"<a href=\"Exceptions\/HandlerWrapper.php.html#30\">App\\Exceptions\\HandlerWrapper::handle<\/a>"],[0,2,"<a href=\"Exceptions\/HandlerWrapper.php.html#50\">App\\Exceptions\\HandlerWrapper::getHandler<\/a>"],[0,2,"<a href=\"Exceptions\/Handlers\/AuthenticationExceptionHandler.php.html#19\">App\\Exceptions\\Handlers\\AuthenticationExceptionHandler::handle<\/a>"],[0,2,"<a href=\"Exceptions\/Handlers\/InternalRipioExceptionHandler.php.html#18\">App\\Exceptions\\Handlers\\InternalRipioExceptionHandler::handle<\/a>"],[0,2,"<a href=\"Exceptions\/Handlers\/ValidationExceptionHandler.php.html#18\">App\\Exceptions\\Handlers\\ValidationExceptionHandler::handle<\/a>"],[0,1,"<a href=\"Exceptions\/InternalRipioException.php.html#24\">App\\Exceptions\\InternalRipioException::__construct<\/a>"],[0,1,"<a href=\"Exceptions\/InternalRipioException.php.html#39\">App\\Exceptions\\InternalRipioException::getStatus<\/a>"],[0,1,"<a href=\"Exceptions\/InternalRipioException.php.html#49\">App\\Exceptions\\InternalRipioException::getData<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AddressController.php.html#15\">App\\Http\\Controllers\\AddressController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AddressController.php.html#25\">App\\Http\\Controllers\\AddressController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#17\">App\\Http\\Controllers\\AuthController::__construct<\/a>"],[0,2,"<a href=\"Http\/Controllers\/AuthController.php.html#27\">App\\Http\\Controllers\\AuthController::login<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#43\">App\\Http\\Controllers\\AuthController::me<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#53\">App\\Http\\Controllers\\AuthController::logout<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#65\">App\\Http\\Controllers\\AuthController::refresh<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#75\">App\\Http\\Controllers\\AuthController::invalidCredentials<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#89\">App\\Http\\Controllers\\AuthController::loggedOut<\/a>"],[0,1,"<a href=\"Http\/Controllers\/AuthController.php.html#105\">App\\Http\\Controllers\\AuthController::respondWithToken<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BalanceController.php.html#13\">App\\Http\\Controllers\\BalanceController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DepositController.php.html#14\">App\\Http\\Controllers\\DepositController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DepositController.php.html#36\">App\\Http\\Controllers\\DepositController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RateController.php.html#14\">App\\Http\\Controllers\\RateController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/RateController.php.html#26\">App\\Http\\Controllers\\RateController::getHistoricalRates<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ReusableQuoteController.php.html#16\">App\\Http\\Controllers\\ReusableQuoteController::index<\/a>"],[0,2,"<a href=\"Http\/Controllers\/ReusableQuoteController.php.html#28\">App\\Http\\Controllers\\ReusableQuoteController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/TransactionController.php.html#14\">App\\Http\\Controllers\\TransactionController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/TransactionController.php.html#31\">App\\Http\\Controllers\\TransactionController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#14\">App\\Http\\Controllers\\UserController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#24\">App\\Http\\Controllers\\UserController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/UserController.php.html#34\">App\\Http\\Controllers\\UserController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/WithdrawalController.php.html#16\">App\\Http\\Controllers\\WithdrawalController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/WithdrawalController.php.html#39\">App\\Http\\Controllers\\WithdrawalController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/WithdrawalController.php.html#58\">App\\Http\\Controllers\\WithdrawalController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/WithdrawalFeeController.php.html#14\">App\\Http\\Controllers\\WithdrawalFeeController::index<\/a>"],[0,2,"<a href=\"Http\/Middleware\/Authenticate.php.html#13\">App\\Http\\Middleware\\Authenticate::redirectTo<\/a>"],[0,4,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#18\">App\\Http\\Middleware\\RedirectIfAuthenticated::handle<\/a>"],[0,1,"<a href=\"Http\/Middleware\/TrustHosts.php.html#14\">App\\Http\\Middleware\\TrustHosts::hosts<\/a>"],[0,1,"<a href=\"Http\/Requests\/LoginAuthRequest.php.html#12\">App\\Http\\Requests\\LoginAuthRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/LoginAuthRequest.php.html#22\">App\\Http\\Requests\\LoginAuthRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreAddressRequest.php.html#14\">App\\Http\\Requests\\StoreAddressRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreAddressRequest.php.html#24\">App\\Http\\Requests\\StoreAddressRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreReusableQuoteRequest.php.html#14\">App\\Http\\Requests\\StoreReusableQuoteRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreReusableQuoteRequest.php.html#24\">App\\Http\\Requests\\StoreReusableQuoteRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreUserRequest.php.html#12\">App\\Http\\Requests\\StoreUserRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreUserRequest.php.html#22\">App\\Http\\Requests\\StoreUserRequest::rules<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreWithdrawalRequest.php.html#14\">App\\Http\\Requests\\StoreWithdrawalRequest::authorize<\/a>"],[0,1,"<a href=\"Http\/Requests\/StoreWithdrawalRequest.php.html#24\">App\\Http\\Requests\\StoreWithdrawalRequest::rules<\/a>"],[0,1,"<a href=\"Models\/ApiToken.php.html#28\">App\\Models\\ApiToken::getValidToken<\/a>"],[0,1,"<a href=\"Models\/User.php.html#47\">App\\Models\\User::getJWTIdentifier<\/a>"],[0,1,"<a href=\"Models\/User.php.html#57\">App\\Models\\User::getJWTCustomClaims<\/a>"],[0,1,"<a href=\"Models\/User.php.html#69\">App\\Models\\User::getAuthPassword<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#18\">App\\Providers\\AppServiceProvider::register<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#26\">App\\Providers\\AppServiceProvider::boot<\/a>"],[35.294117647058826,2,"<a href=\"Providers\/AppServiceProvider.php.html#38\">App\\Providers\\AppServiceProvider::getApiResponseCallable<\/a>"],[25,1,"<a href=\"Providers\/AppServiceProvider.php.html#68\">App\\Providers\\AppServiceProvider::getKeysToCamelCaseCallable<\/a>"],[83.33333333333334,1,"<a href=\"Providers\/AuthServiceProvider.php.html#23\">App\\Providers\\AuthServiceProvider::boot<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#13\">App\\Providers\\BroadcastServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#26\">App\\Providers\\EventServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#34\">App\\Providers\\EventServiceProvider::shouldDiscoverEvents<\/a>"],[0,1,"<a href=\"Providers\/JWTUserProvider.php.html#17\">App\\Providers\\JWTUserProvider::register<\/a>"],[0,1,"<a href=\"Providers\/JWTUserProvider.php.html#25\">App\\Providers\\JWTUserProvider::boot<\/a>"],[0,1,"<a href=\"Providers\/JWTUserProvider.php.html#37\">App\\Providers\\JWTUserProvider::retrieveByToken<\/a>"],[0,1,"<a href=\"Providers\/JWTUserProvider.php.html#49\">App\\Providers\\JWTUserProvider::updateRememberToken<\/a>"],[0,1,"<a href=\"Providers\/JWTUserProvider.php.html#60\">App\\Providers\\JWTUserProvider::retrieveById<\/a>"],[0,1,"<a href=\"Providers\/JWTUserProvider.php.html#71\">App\\Providers\\JWTUserProvider::retrieveByCredentials<\/a>"],[0,2,"<a href=\"Providers\/JWTUserProvider.php.html#83\">App\\Providers\\JWTUserProvider::validateCredentials<\/a>"],[0,3,"<a href=\"Providers\/JWTUserProvider.php.html#95\">App\\Providers\\JWTUserProvider::getUserByCredentials<\/a>"],[0,1,"<a href=\"Providers\/JWTUserProvider.php.html#113\">App\\Providers\\JWTUserProvider::getUser<\/a>"],[80,5,"<a href=\"Providers\/RouteServiceProvider.php.html#25\">App\\Providers\\RouteServiceProvider::boot<\/a>"],[0,3,"<a href=\"Rules\/Network.php.html#15\">App\\Rules\\Network::validate<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Ripio.php.html#20\">App\\Service\\Exchange\\Ripio\\Ripio::__construct<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/RipioClient.php.html#33\">App\\Service\\Exchange\\Ripio\\RipioClient::__construct<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/RipioClient.php.html#47\">App\\Service\\Exchange\\Ripio\\RipioClient::makeRequest<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/RipioClient.php.html#65\">App\\Service\\Exchange\\Ripio\\RipioClient::setToken<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/RipioClient.php.html#96\">App\\Service\\Exchange\\Ripio\\RipioClient::isExpiredToken<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/RipioClient.php.html#108\">App\\Service\\Exchange\\Ripio\\RipioClient::throwIfApiHasErrors<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/RipioFacade.php.html#9\">App\\Service\\Exchange\\Ripio\\RipioFacade::getFacadeAccessor<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiAddress.php.html#19\">App\\Service\\Exchange\\Ripio\\ApiAddress::getAddresses<\/a>"],[0,3,"<a href=\"Service\/Exchange\/Ripio\/ApiAddress.php.html#36\">App\\Service\\Exchange\\Ripio\\ApiAddress::createAddress<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiBalance.php.html#15\">App\\Service\\Exchange\\Ripio\\ApiBalance::getBalances<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiDeposit.php.html#17\">App\\Service\\Exchange\\Ripio\\ApiDeposit::getDeposits<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiDeposit.php.html#32\">App\\Service\\Exchange\\Ripio\\ApiDeposit::getDeposit<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiRate.php.html#18\">App\\Service\\Exchange\\Ripio\\ApiRate::getRates<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiRate.php.html#31\">App\\Service\\Exchange\\Ripio\\ApiRate::getHistoricalRates<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiResponse.php.html#13\">App\\Service\\Exchange\\Ripio\\ApiResponse::getResponse<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiReusableQuote.php.html#19\">App\\Service\\Exchange\\Ripio\\ApiReusableQuote::getReusableQuotes<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/ApiReusableQuote.php.html#36\">App\\Service\\Exchange\\Ripio\\ApiReusableQuote::createReusableQuote<\/a>"],[0,4,"<a href=\"Service\/Exchange\/Ripio\/ApiReusableQuote.php.html#76\">App\\Service\\Exchange\\Ripio\\ApiReusableQuote::executionReusableQuote<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiTransaction.php.html#18\">App\\Service\\Exchange\\Ripio\\ApiTransaction::getTransactions<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiTransaction.php.html#33\">App\\Service\\Exchange\\Ripio\\ApiTransaction::getTransaction<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiUrl.php.html#15\">App\\Service\\Exchange\\Ripio\\ApiUrl::getUrl<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiUser.php.html#14\">App\\Service\\Exchange\\Ripio\\ApiUser::getUsers<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiUser.php.html#28\">App\\Service\\Exchange\\Ripio\\ApiUser::getUser<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/ApiUser.php.html#45\">App\\Service\\Exchange\\Ripio\\ApiUser::createUser<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiWithdrawal.php.html#19\">App\\Service\\Exchange\\Ripio\\ApiWithdrawal::getWithdrawals<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiWithdrawal.php.html#34\">App\\Service\\Exchange\\Ripio\\ApiWithdrawal::getWithdrawal<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/ApiWithdrawal.php.html#56\">App\\Service\\Exchange\\Ripio\\ApiWithdrawal::createWithdrawal<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/ApiWithdrawalFee.php.html#18\">App\\Service\\Exchange\\Ripio\\ApiWithdrawalFee::getWithdrawalFees<\/a>"],[0,2,"<a href=\"Service\/Exchange\/Ripio\/ApiWithdrawalFee.php.html#39\">App\\Service\\Exchange\\Ripio\\ApiWithdrawalFee::createWithdrawalFee<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Auth.php.html#9\">App\\Service\\Exchange\\Ripio\\Resource\\Auth::getValue<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Deposit.php.html#10\">App\\Service\\Exchange\\Ripio\\Resource\\Deposit::getValue<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/EndUser.php.html#12\">App\\Service\\Exchange\\Ripio\\Resource\\EndUser::getValue<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Rate.php.html#10\">App\\Service\\Exchange\\Ripio\\Resource\\Rate::getValue<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Transaction.php.html#12\">App\\Service\\Exchange\\Ripio\\Resource\\Transaction::getValue<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/Withdrawal.php.html#10\">App\\Service\\Exchange\\Ripio\\Resource\\Withdrawal::getValue<\/a>"],[0,1,"<a href=\"Service\/Exchange\/Ripio\/Resource\/WithdrawalFee.php.html#9\">App\\Service\\Exchange\\Ripio\\Resource\\WithdrawalFee::getValue<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
